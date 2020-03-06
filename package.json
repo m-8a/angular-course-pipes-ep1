@@ -11,15 +11,16 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/core": "^9.0.0",
-    "@angular/forms": "^9.0.0",
     "@angular/animations": "^9.0.0",
     "@angular/common": "^9.0.0",
+    "@angular/compiler": "^9.0.0",
+    "@angular/core": "^9.0.0",
+    "@angular/forms": "^9.0.0",
     "@angular/http": "7.2.16",
     "@angular/platform-browser": "^9.0.0",
     "@angular/platform-browser-dynamic": "^9.0.0",
-    "@angular/compiler": "^9.0.0",
     "@angular/router": "^9.0.0",
+    "bootstrap": "4.4.1",
     "core-js": "3.6.4",
     "rxjs": "6.5.4",
     "zone.js": "0.10.2"
@@ -45,6 +46,8 @@
     "tslint": "6.0.0",
     "typescript": "3.7.5"
   },
-  "keywords": ["angular"],
+  "keywords": [
+    "angular"
+  ],
   "description": "An Angular starter you can use ng commands with to create components, routes, services, pipes etc."
 }
